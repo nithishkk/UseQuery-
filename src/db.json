@@ -1,0 +1,21 @@
+{
+  "superman":{
+    "id":1,
+    "name":"nithish",
+    "altEgo":"Bracer Wayne"
+    
+  },
+  {
+    "id":2,
+    "name":"SuperMan",
+    "altEgo":"Clark kent"
+  },
+  {
+    "id":3,
+    "name":"Wonder Woman",
+    "altEgo":"Princes Diana"
+  }
+   
+
+  
+}
