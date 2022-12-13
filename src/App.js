@@ -1,21 +1,21 @@
 import{useQuery} from 'react-query'
 import React from "react";
 import "./style.css";
-const fetchdata=()=>{
+
+const fetchData=()=>{
   return axios.get('https://jsonplaceholder.typicode.com/users')
 }
+const App=()=>{
+  const{isLoading,data}=useQuery('nithish',fetchData)
 
-export default function App() {
-  // const{isLoading,data} = useQuery('nithish',()=>{
-  //  return axios.get('https://jsonplaceholder.typicode.com/users')
-
-  const{isLoading,data} =useQuery('nithihd',fetchdata) 
-})
-
-
-  if(isLoading){
-    return <h1>Loading... </h1>
+  is(isLoading){
+    return <h2> Loading... </h2>
   }
+
+}
+
+
+
 
   return (
     <div>
